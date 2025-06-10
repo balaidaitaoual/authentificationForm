@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formUser</title>
+    
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="container">
+        <!-- formulaire d'inscription -->
+        <div class="form-box signup-form" id="signup-form">
+        <form action="" class="form" >
+            <h3>Créer un compte</h3>
+            <div class="line"></div>
+
+            <div class="form-group name-box">
+                <input type="text" placeholder="Nom" class="input-text name-input" required>
+                <input type="text" placeholder="Prenom" class="input-text name-input" required>
+
+            </div>
+
+            <div class="form-group ">
+                <span class="title-text">Genre</span>
+                <div class="box-genre">
+                <div class="title-genre">
+                   <span>homme</span>
+                   <input type="radio" class="input-text" name="genre" required>
+                </div>
+                <div class="title-genre">
+                   <span>femme</span>
+                   <input type="radio" class="input-text" name="genre" required>
+                </div>
+                </div>
+            </div>
+            <div class="form-group ">
+                <span class="title-text">date de naisance</span>
+                <input type="date"  class="input-text" required>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email"  class="input-text" required>
+            </div>
+            <div class="form-group">
+                <input type="password" placeholder="Mot de passe"  class="input-text" required>
+            </div>
+            
+             <div class="form-group">
+             <button type="submit" class="btn-valider">S'inscrire</button>
+            </div>
+            <div class="form-group link-signin">
+               <a href="#"  id="show-signin" >Vous avez déjà un compte ?</a>
+            </div>
+        </form>
+        </div>
+        <!-- formulaire de connection  -->
+        <div class="form-box signin-form" id="signin-form">
+        <form action="#" class="form">
+            <div class="title-login">
+                <h3>Login</h3>
+            </div>
+            <div class="form-group">
+                <input type="email" placeholder="Email" class="input-text " required>
+            </div>
+            <div class="form-group">
+                 <input type="password" placeholder="Mot de passe" class="input-text" required>
+            </div>
+            <div class="form-group">
+                 <button type="submit" class="btn-connecte">Se connecter</button>
+            </div>
+            <div class="line"></div>
+            <div class="form-group link-signup">
+             <button class="btn-creation"><a href="#"  id="show-signup" >Créer un compte</a></button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>

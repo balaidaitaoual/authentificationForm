@@ -1,0 +1,150 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f0f2f5;
+  height: 100vh;
+}
+h3{
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;color: #090b0a;
+  font-size: 1.4rem;
+
+}
+.title-login > h3{
+  text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #090b0a;
+  font-size: 1.4rem;
+  padding: 10px;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  gap: 20px;  
+  background-color: #ffffff;    
+}
+.form-box{
+  background-color: #ffffff;
+  width: 400px;
+  border: 1px solid #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: #00000059 0px 5px 15px;
+}
+.signin-form {
+  display: flex;
+  flex-direction: column;
+}
+.signup-form{
+    display: none;
+    background-color: #ffffff;
+    width: 400px;
+    border: 1px solid #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+}
+.form-group{
+  padding: 5px;
+}
+.title-text{
+  color: #525151;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+}
+.line{
+  width: calc(100% + 40px);
+  margin: 15px -20px;
+  height: 2px;
+  background-color: #efefef;
+}
+.name-box{
+  display: flex;
+  gap: 10px;
+}
+.name-input{
+  width: 50%;       
+}
+.input-text {
+  width: 100%;
+  font-size: 1.1rem;
+  padding: 8px;
+  margin: 6px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.box-genre{
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  gap: 65px; 
+  width: 100%;
+}
+.title-genre{
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+     
+}
+ 
+.btn-valider {
+  width: 70%;
+  font-size: 1.2rem;
+  background-color: #05c21e;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  margin: 10px 50px ;
+  cursor: pointer;
+}
+.btn-connecte{
+  width: 100%;
+  font-size: 1.2rem;
+  background-color: #099bf0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+.btn-creation{
+  width: 75%;
+  font-size: 1.2rem;
+  background-color: #05c21e;
+  border: none;
+  border-radius: 5px;
+  padding: 8px;
+  cursor: pointer;
+}
+ .link-signup{
+  text-align: center;
+  text-decoration: none;
+}
+.link-signup a{
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+.link-signin{
+  text-align: center;
+  text-decoration: none;
+}
+.link-signin a{
+  text-decoration: none;
+  color: #099bf0;
+  font-size: 1.2rem;
+}
+.error {
+  border: 1px solid red;
+}
+
